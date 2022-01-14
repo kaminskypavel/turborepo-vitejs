@@ -1,5 +1,11 @@
 export type User = {
-    id: string;
-    name: number;
+    id: number;
+    name: string;
     email: string;
 }
+
+export const defaultUser = {
+    id: 0,
+    name: "bob",
+    email: ""
+} as User

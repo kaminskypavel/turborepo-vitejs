@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import { defaultUser } from 'shared';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,8 @@ function App() {
           >
             Learn React
           </a>
+          <p>${JSON.stringify(defaultUser)}</p>
+
           {' | '}
           <a
             className="App-link"
