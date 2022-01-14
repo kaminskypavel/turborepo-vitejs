@@ -1,6 +1,10 @@
 # Turborepo starter
 
-This is an official Yarn v1 starter turborepo.
+a Test repo for testing Turborepo (accquired by Vercel) and deploying it to Vercel
+
+- [Dashboard](https://vercel.com/new/import?s=https%3A%2F%2Fgithub.com%2Fkaminskypavel%2Fturborepo-vitejs)
+
+- [Preview](https://turborepo-vitejs.vercel.app/)
 
 ## What's inside?
 
